@@ -1,0 +1,162 @@
+[
+  {
+    "Id": 1,
+    "Name": "student1 Doe",
+    "Address": "Somestreet 1, 1000 Odense",
+    "Birthdate": "1991-01-01T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 2,
+    "Name": "student2 Doe",
+    "Address": "Somestreet 2, 2000 Odense",
+    "Birthdate": "1992-02-02T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 3,
+    "Name": "student3 Doe",
+    "Address": "Somestreet 3, 3000 Odense",
+    "Birthdate": "1993-03-03T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 4,
+    "Name": "student4 Doe",
+    "Address": "Somestreet 4, 4000 Odense",
+    "Birthdate": "1994-04-04T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 5,
+    "Name": "student5 Doe",
+    "Address": "Somestreet 5, 5000 Odense",
+    "Birthdate": "1995-05-05T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 6,
+    "Name": "student6 Doe",
+    "Address": "Somestreet 6, 6000 Odense",
+    "Birthdate": "1996-06-06T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 7,
+    "Name": "student7 Doe",
+    "Address": "Somestreet 7, 7000 Odense",
+    "Birthdate": "1997-07-07T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 8,
+    "Name": "student8 Doe",
+    "Address": "Somestreet 8, 8000 Odense",
+    "Birthdate": "1998-08-08T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 9,
+    "Name": "student9 Doe",
+    "Address": "Somestreet 9, 9000 Odense",
+    "Birthdate": "1999-09-09T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 10,
+    "Name": "student10 Doe",
+    "Address": "Somestreet 10, 10000 Odense",
+    "Birthdate": "2000-10-10T00:00:00",
+    "Email": "student@eal.dk",
+    "UserType": "Student"
+  },
+  {
+    "Id": 11,
+    "Name": "teacher11 Doe",
+    "Address": "Somestreet 11, 11000 Odense",
+    "Birthdate": "2001-01-11T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 12,
+    "Name": "teacher12 Doe",
+    "Address": "Somestreet 12, 12000 Odense",
+    "Birthdate": "2002-01-12T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 13,
+    "Name": "teacher13 Doe",
+    "Address": "Somestreet 13, 13000 Odense",
+    "Birthdate": "2003-01-13T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 14,
+    "Name": "teacher14 Doe",
+    "Address": "Somestreet 14, 14000 Odense",
+    "Birthdate": "2004-01-14T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 15,
+    "Name": "teacher15 Doe",
+    "Address": "Somestreet 15, 15000 Odense",
+    "Birthdate": "2005-01-15T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 16,
+    "Name": "teacher16 Doe",
+    "Address": "Somestreet 16, 16000 Odense",
+    "Birthdate": "2006-01-16T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 17,
+    "Name": "teacher17 Doe",
+    "Address": "Somestreet 17, 17000 Odense",
+    "Birthdate": "2007-01-17T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 18,
+    "Name": "teacher18 Doe",
+    "Address": "Somestreet 18, 18000 Odense",
+    "Birthdate": "2008-01-18T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 19,
+    "Name": "teacher19 Doe",
+    "Address": "Somestreet 19, 19000 Odense",
+    "Birthdate": "2009-01-19T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  },
+  {
+    "Id": 20,
+    "Name": "teacher20 Doe",
+    "Address": "Somestreet 20, 20000 Odense",
+    "Birthdate": "2010-01-20T00:00:00",
+    "Email": "teacher@eal.dk",
+    "UserType": "Teacher"
+  }
+]

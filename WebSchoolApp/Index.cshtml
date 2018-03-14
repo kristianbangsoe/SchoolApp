@@ -1,0 +1,19 @@
+﻿@using SchoolLibrary;
+@{
+    Layout = "Layouts/_master.cshtml";
+    Page.Title = "This is a front page";
+    //create a relative reference to the file where we are saving json
+    string filePath = Server.MapPath("data/users.json");
+    //write the json to the file
+    /* DbProvider.SaveUsers(filePath); */
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School App</title>
+</head>
+<body>
+    <h1>Welcome to the Scool App</h1>
+</body>
+</html>

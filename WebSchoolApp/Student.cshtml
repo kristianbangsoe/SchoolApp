@@ -1,0 +1,22 @@
+﻿@using SchoolLibrary;
+@{
+    int userId = (Request["id"] != null) ? int.Parse(Request["id"]) : 1;
+    var filePath = Server.MapPath("data/users.json");
+    var users = DbProvider.GetUsers(filePath);
+
+    //query the list & find the user with id = studentID
+    var user = users.Where(s => s.Id == userId).Single();
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Details about user</title>
+</head>
+<body>
+    <h1>Details about user @user.Name - @user.GetAge() year old</h1>
+    @user.Address<br />
+    @user.Email<br />
+    @user.Birthdate.ToString("d / MMMM / yyyy")<br /><br />
+    <a href="EditStudent?id=@user.Id">Edit this user</a>
+</body>
+</html>
