@@ -1,0 +1,37 @@
+﻿@using SchoolLibrary;
+@{
+    int userId = (Request["id"] != null) ? int.Parse(Request["id"]) : 1;
+    var filePath = Server.MapPath("data/users.json");
+    var users = DbProvider.GetUsers(filePath);
+
+    //query the list & find the user with id = studentID
+    var user = users.Where(s => s.Id == userId).Single();
+
+    //check if there is postback
+    if(IsPost)
+    {
+        //find the user to edit
+        //change the details from the user input
+        users.Where(s => s.Id == userId).Single().Name = Request["studentName"];
+        //save the list to the json file
+        DbProvider.SaveUsers(filePath, users);
+    }
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit the user</title>
+</head>
+<body>
+    <h1>Editing details about @user.Name</h1>
+
+    <form method="post" action="">
+        <input type="text" name="studentName" value="@user.Name" /><br /><br />
+        <input type="email" name="studentEmail" value="@user.Email" /><br /><br />
+        <input type="text" name="studentAddress" value="@user.Address" /><br /><br />
+        <input type="text" name="studentBirthdate" value="@user.Birthdate" /><br /><br />
+        <button type="submit">Save the changes</button>
+    </form>
+
+</body>
+</html>

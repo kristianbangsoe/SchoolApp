@@ -90,14 +90,14 @@
     <Content Include="assets\students.css" />
     <Content Include="assets\teachers.css" />
     <Content Include="Index.cshtml" />
-    <Content Include="EditStudent.cshtml" />
+    <Content Include="Edit.cshtml" />
     <Content Include="data\users.json" />
     <Content Include="Layouts\_master.cshtml" />
     <Content Include="Layouts\_Students.cshtml" />
     <Content Include="Layouts\_Teachers.cshtml" />
     <None Include="packages.config" />
     <Content Include="Students.cshtml" />
-    <Content Include="Student.cshtml" />
+    <Content Include="User.cshtml" />
     <Content Include="Teachers.cshtml" />
     <Content Include="Partials\TopNavigation.cshtml" />
     <None Include="Web.Debug.config">

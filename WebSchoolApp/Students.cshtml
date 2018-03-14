@@ -24,7 +24,7 @@ Layout = "Layouts/_Students.cshtml";
         @foreach (var user in users.Where(getUser => getUser.UserType == "Student"))
         {
             <tr>
-                <td> <a href="student?id=@user.Id">@user.Name</a> </td>
+                <td> <a href="user?id=@user.Id">@user.Name</a> </td>
                 <td>@user.Address</td>
                 <td>@user.Email</td>
             </tr>
